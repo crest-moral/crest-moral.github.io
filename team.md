@@ -26,4 +26,4 @@ permalink: /team/
 - Oh Hanbit (AIST)
 - 原田研介 / Kensuke Harada (Osaka Univ.)
 - 井本桂右 / Keisuke Imoto (Kyoto Univ.)
-- 千葉直也 / Naoya Chiba, (Osaka Univ.)
+- 千葉直也 / Naoya Chiba (Osaka Univ.)
