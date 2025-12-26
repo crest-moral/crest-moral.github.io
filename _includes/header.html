@@ -1,0 +1,13 @@
+<header class="header">
+  <div class="container">
+    <div class="brand">
+      <div class="brand-title">{{ site.title }}</div>
+      <div class="brand-sub">{{ site.tagline }}</div>
+    </div>
+    <nav class="nav">
+      {% for item in site.nav %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
