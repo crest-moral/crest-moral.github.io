@@ -22,4 +22,6 @@ MORAL（Morphoception-Oriented Reasoning and Action with Language）は、現実
 
 研究課題「身体が考えるロボット基盤モデル：MORAL」
 
-グラント番号 JPMJCR2553
+研究課題番号 JPMJCR2553
+
+研究機関　2025-2030
