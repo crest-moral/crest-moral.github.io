@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-## 研究概要
 MORAL（Morphoception-Oriented Reasoning and Action with Language）は、
 現実世界で動き、環境や人と相互作用しながら学習・適応するPhysical AIの基盤構築を
 目的としたJST CREST 研究プロジェクトです。
