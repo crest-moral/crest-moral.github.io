@@ -2,8 +2,9 @@
 layout: home
 ---
 
-# Project MORAL
-身体が考えるロボット基盤モデル：MORAL
+# 身体が考えるロボット基盤モデル：MORAL
+
+
 
 ---
 
