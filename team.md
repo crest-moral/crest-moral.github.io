@@ -19,7 +19,7 @@ permalink: /team/
 - 牧原昂志 (Koshi Makihara, AIST)
 - 佐々木洋子 (Yoko Sasaki, AIST)
 - 花井亮 (Ryo Hanai, AIST)
-- 古志知也 (Tomoya Koshim, AIST)
+- 古志知也 (Tomoya Koshi, AIST)
 - 延島大樹 (Daiki Nobeshima, AIST)
 - 武居淳 (Jun Takei, AIST)
 - Qiu Yue (AIST)
