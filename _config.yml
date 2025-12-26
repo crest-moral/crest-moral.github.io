@@ -22,14 +22,3 @@ markdown: kramdown
 permalink: /news/:year/:month/:day/:title/
 
 # News一覧のページネーション等は使わない（シンプル運用）
-
-
-title: MORAL
-description: Morphoception-Oriented Reasoning and Action with Language
-theme: minima
-
-header_pages:
-  - about.md
-  - team.md
-  - publications.md
-  - news.md
