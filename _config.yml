@@ -1,5 +1,31 @@
+title: "Project MORAL"
+tagline: "身体が考えるロボット基盤モデル：MORAL"
+description: "Morphoception-Oriented Reasoning and Action with Language (MORAL)"
+lang: ja
+timezone: Asia/Tokyo
+
+# メニュー（上に出す順番）
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Team
+    url: /team/
+  - title: Publications
+    url: /publications/
+  - title: News
+    url: /news/
+
+# GitHub Pages標準のJekyllで動く前提（追加プラグインなし）
+markdown: kramdown
+permalink: /news/:year/:month/:day/:title/
+
+# News一覧のページネーション等は使わない（シンプル運用）
+
+
 title: MORAL
-description: Moriphoception-Oriented Reasoning and Action with Language
+description: Morphoception-Oriented Reasoning and Action with Language
 theme: minima
 
 header_pages:
