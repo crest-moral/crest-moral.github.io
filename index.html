@@ -1,36 +1,70 @@
-<!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>CREST MORAL</title>
-  <style>
-    body { font-family: system-ui, sans-serif; margin: 40px; line-height: 1.8; }
-    header { margin-bottom: 24px; }
-    .badge { display:inline-block; padding: 4px 10px; border:1px solid #ccc; border-radius: 999px; }
-    a { text-decoration: none; }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="badge">JST CREST</div>
-    <h1>CREST MORAL</h1>
-    <p>身体中心のモダリティ統合（MORAL）プロジェクトのWebサイト（仮）</p>
-  </header>
+---
+layout: home
+title: CREST MORAL
+---
 
-  <h2>About</h2>
-  <p>
-    現実世界で動き、学び、協調する知能の探求。機械学習、ロボティクス、
-    シミュレーション、人間理解を統合し、フィジカルAIの基盤技術を開発します。
+<div style="max-width: 900px; margin: auto;">
+
+  <h1>CREST MORAL</h1>
+
+  <p style="font-size: 1.1em;">
+    <strong>
+      身体中心のモダリティ統合（MORAL）
+    </strong><br>
+    JST CREST プロジェクト
   </p>
+
+  <hr>
+
+  <h2>About the Project</h2>
+
+  <p>
+    MORAL（身体中心のモダリティ統合）は、現実世界で動き、学び、
+    人や環境と相互作用する知能の実現を目指す研究プロジェクトです。
+    視覚・触覚・力覚・音・身体構造・運動などの多様な身体情報を
+    統合することで、フィジカルAI・実体知能の新しい基盤を構築します。
+  </p>
+
+  <p>
+    本プロジェクトでは、ロボティクス、機械学習、シミュレーション、
+    人間理解を横断し、実世界で機能する知能の理論と実証の両面に取り組みます。
+  </p>
+
+  <hr>
+
+  <h2>News</h2>
+
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li>
+        <span style="color: gray;">{{ post.date | date: "%Y-%m-%d" }}</span>
+        –
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p>
+    <a href="/news/">→ All News</a>
+  </p>
+
+  <hr>
 
   <h2>Links</h2>
   <ul>
-    <li><a href="https://github.com/">GitHub</a>（このサイトのホスティング）</li>
+    <li><a href="/about/">About MORAL</a></li>
+    <li><a href="/team/">Team</a></li>
+    <li><a href="/publication/">Publications</a></li>
+    <li><a href="/news/">News</a></li>
   </ul>
 
-  <footer style="margin-top:40px; font-size: 0.9em; color:#666;">
-    © CREST MORAL
+  <hr>
+
+  <footer style="font-size: 0.9em; color: #666;">
+    <p>
+      This project is supported by JST CREST.<br>
+      © CREST MORAL Project
+    </p>
   </footer>
-</body>
-</html>
+
+</div>
