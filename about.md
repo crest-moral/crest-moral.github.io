@@ -20,8 +20,6 @@ MORAL（Morphoception-Oriented Reasoning and Action with Language）は、
 身体中心の視点からモダリティ統合の理論と実装を探究します。
 視覚・触覚・力覚・音・自己運動感覚などの異なる情報を横断的に結びつけることで、
 実世界に根ざした知覚・判断・行為の統合的理解を目指します。
-  
-PI：堂前幸康（AIST）
 
 ---
 
